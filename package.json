@@ -1,0 +1,19 @@
+{
+  "name": "expressjm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "School of net",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "method-override": "^2.3.6",
+    "mysql": "^2.11.1",
+    "pug": "^2.0.0-beta2",
+    "sequelize": "^3.23.3"
+  }
+}

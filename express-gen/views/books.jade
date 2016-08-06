@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  table
+    thead
+      tr
+        th Name
+        th Author
+    tbody
+      each book in books
+        tr
+          td= book.name
+          td= book.author
